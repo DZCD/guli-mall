@@ -1,0 +1,17 @@
+package com.duzicong.gulimall.product.dao;
+
+import com.duzicong.gulimall.product.entity.ProductAttrValueEntity;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
+
+/**
+ * 
+ * 
+ * @author duzicong
+ * @email 1074676408@qq.com
+ * @date 2025-12-29 15:44:58
+ */
+@Mapper
+public interface ProductAttrValueDao extends BaseMapper<ProductAttrValueEntity> {
+	
+}

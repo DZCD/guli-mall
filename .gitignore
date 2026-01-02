@@ -114,6 +114,14 @@ replay_pid*
 **/application-local.yaml
 **/application-prod.yml
 **/application-prod.yaml
+**/application-test.yml
+**/application-test.yaml
+
+# Generator Configuration (may contain personal info)
+**/generator.properties
+
+# Help files
+**/HELP.md
 
 # Logs
 logs/
