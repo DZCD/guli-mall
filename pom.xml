@@ -59,6 +59,13 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            
+            <!-- 强制指定Nacos客户端版本1.4.6，兼容Nacos服务器1.1.3 -->
+            <dependency>
+                <groupId>com.alibaba.nacos</groupId>
+                <artifactId>nacos-client</artifactId>
+                <version>1.4.6</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

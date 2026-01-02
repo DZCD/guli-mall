@@ -51,7 +51,6 @@
                 <version>${spring-boot.version}</version>
                 <configuration>
                     <mainClass>com.duzicong.gulimall.coupon.GulimallCouponApplication</mainClass>
-                    <skip>true</skip>
                 </configuration>
                 <executions>
                     <execution>
