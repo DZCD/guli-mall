@@ -138,3 +138,7 @@ log/
 # Build output
 build/
 dist/
+
+# Renren scaffolding tools (not part of main project)
+renren-fast/
+renren-generator/
