@@ -8,15 +8,10 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
   cloud:
     nacos:
-      username: nacos
-      password: Zkyy2021
-      server-addr: 117.72.167.140:8848
       discovery:
         server-addr: 117.72.167.140:8848
-        username: nacos
-        password: Zkyy2021
-        namespace: public
-        group: DEFAULT_GROUP
+      password: Zkyy2021
+      username: nacos
 
 mybatis-plus:
   mapper-locations: classpath:/mapper/**/*.xml
