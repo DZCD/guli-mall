@@ -142,3 +142,23 @@ dist/
 # Renren scaffolding tools (not part of main project)
 renren-fast/
 renren-generator/
+
+# MCP (Model Context Protocol) configuration - personal tool config
+.mcp.json
+
+# Nacos client cache
+**/nacos/cache/
+**/nacos/config/
+.naming/
+
+# Environment specific configs (may contain sensitive data)
+**/application-local.properties
+**/application-local.yml
+**/application-local.yaml
+
+# MyBatis-Plus generator properties (may contain database credentials)
+**/mp-generator.properties
+
+# Database scripts with sensitive data (keep structure scripts, ignore data with secrets)
+# **/sql/*-data.sql
+# **/sql/*-sensitive*.sql
